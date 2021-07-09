@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@font-face {
+    font-family: GalanoGrosteque;
+    src: url('/fonts/GalanoGrotesqueAltBold.otf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(218, 212, 212);
+    font-family: 'Roboto', sans-serif;
+}
+
+#container{
+    margin: 5% auto;
+    width: 90%;
+    height: 105vh;
+    display: flex;
+    box-shadow: 20px 0px 20px 10px rgba(0, 0, 0, 0.527);
+}
+
+#gif{
+    width: 100%;
+}
+
+#gif img{
+    width: 100%;
+}
+
+#iconsGif{
+    position: absolute;
+    cursor: pointer;
+    width: 90%;
+}
+
+#iconsGif p{
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-top: 2px;
+    margin-left: 4px;
+    color: #c7c7c7;
+    padding: 10px 20px;
+}
+
+#iconsGif p:hover{
+    background-color: rgba(255, 255, 255, 0.144);
+}
+
+#iconsGif #X:hover{
+    background-color: #d13639;;
+}
+
+#iconEngrenagem{
+    position: absolute;
+    margin-top: 44%;
+    width: 90%;
+}
+
+#iconEngrenagem i{
+    color: white;
+    padding: 8px 8px;
+    background-color: #666669;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+    margin-right: 4%;
+}
+
+#iconEngrenagem i:hover{
+    background-color: #979698;
+}
+
+#textosUser{
+    position: absolute;
+    margin: 3%;
+}
+
+#textosUser p{
+    color: #fcfbf6;
+    font-size: 1.4em;
+}
+
+#textosUser span{
+    color: #939798;
+}
+
+#textosUser a{
+    color: #05b9c8;
+    text-decoration: none;
+    font-size: 0.70em;
+}
+
+#textosUser a:hover{
+    color: #0499a7;
+}
+
+#jogar{
+    position: absolute;
+    margin: 13% 8%;
+    font-size: 10em;
+    display: flex;
+    flex-direction: row;
+}
+
+#jogar h1{
+    color: #f9f9f9;
+    font-family: GalanoGrosteque;
+    cursor: pointer;
+}
+
+#jogar h1:hover{
+    color: #0bc4e2;
+
+}
+
+#jogar i{
+    color: #0bc4e2;
+    margin-top: 45%;
+    cursor: pointer;
+}
+
+#botao{
+    margin-left: 2%;
+}
+
+#imagens{
+    position: absolute;
+    width: 10%;
+    display: flex;
+    margin-top: 42%;
+    margin-left: 4%;
+}
+
+#imagens img:first-of-type{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 50%;
+    height: 40%;
+    background-image: red;
+}
+
+#imagens hr{
+    margin: 25px;
+    background-color: #38393b;
+}

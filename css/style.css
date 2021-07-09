@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(218, 212, 212);
+    font-family: 'Roboto', sans-serif;
+}
+
+#container{
+    margin: 5% auto;
+    width: 90%;
+    height: 105vh;
+    display: flex;
+    box-shadow: 20px 0px 20px 10px rgba(0, 0, 0, 0.527);
+}
+
+#container #containerInputs{
+    background-color: #f9f9f9;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#containerInputs #logo{
+    margin-top: 10%;
+}
+
+#containerInputs #login{
+    margin-top: 10%;
+}
+
+#containerInputs #input1{
+    margin-top: 10%;
+}
+
+#input1 input{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 1em;
+    background-color: #ededed;
+    border: none;
+    width: 275px;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+}
+
+#input1 span{
+    font-size: 0.60em;
+    font-weight: bolder;
+    left: 9.50%;
+    top: 44%;
+    position: absolute;
+    letter-spacing: 0.05em;
+    pointer-events: none;
+    transition: .3s;
+    color: #999999;
+}
+
+#input1 input:focus{
+    border: none;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 0pt 2px rgb(0, 0, 0);
+}
+
+#input1 input:focus + span,
+#input1 input:valid + span{
+    left: 8.50%;
+    top: 42%;
+
+}
+
+#input2 input{
+    margin-top: 10%;
+    background-color: #ededed;
+    border: none;
+    width: 275px;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+}
+
+#input2 span{
+    font-size: 0.60em;
+    font-weight: bolder;
+    left: 9.50%;
+    top: 55%;
+    position: absolute;
+    letter-spacing: 0.05em;
+    pointer-events: none;
+    transition: .3s;
+    color: #999999;
+}
+
+#input2 input:focus{
+    border: none;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 0pt 2px rgb(0, 0, 0);
+}
+
+#input2 input:focus + span,
+#input2 input:valid + span{
+    left: 8.70%;
+    top: 54%;
+}
+
+#container #gif{
+    width: 70%;
+}
+
+#gif img{
+    width: 851px;
+    height: 658px;
+}
+
+#icons{
+    margin-top: 4%;
+    display: flex;
+}
+
+#icons i{
+    cursor: pointer;
+}
+
+#icons .fa-facebook{
+    padding: 7px 35px;
+    color: white;
+    border-radius: 5px;
+    background: #1877f2;
+    margin: 5px;
+}
+
+#icons .fa-apple{
+    padding: 7px 35px;
+    color: white;
+    border-radius: 5px;
+    background: #000000;
+    margin: 5px;
+}
+
+#icons div{
+    margin-top: 4.5px;
+    padding: 0px 30px;
+    border-radius: 4px;
+    border-color: #f2f2f2;
+    border-style: solid;
+    height: 25px;
+    cursor: pointer;
+}
+
+#icons img{
+    margin-top: 2.5px;
+    width: 22px;
+}
+
+#icons div:hover{
+    border-color: #e4e2e2;
+}
+
+#icons .fa-facebook:hover{
+    background-color: #2c84f8;
+}
+
+#icons .fa-apple:hover{
+    background-color: #242323;
+}
+
+#manterLogin{
+    margin-right: 50%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+#manterLogin span{
+    font-size: 0.80em;
+    color: #999999;
+}
+
+#manterLogin i{
+    color: #ededed;
+}
+
+#manterLogin .fa-check-square{
+    color: #d13639;
+    display: none;
+}
+
+#seta{
+    margin-top: 20%;
+}
+
+#setinha{
+    padding: 22px 23px;
+    border-radius: 20px;
+    color: #e8e8e8;
+    border-color: #999999;
+    border-style: 2px 2px 2px solid;
+}
+
+#textos{
+    margin-top: 15%;
+    color: #999999;
+    font-size: 0.70em;
+    cursor: pointer;
+}
+
+#textos p:hover{
+    color: black;
+    cursor: pointer;
+}
+
+#iconsGif{
+    position: absolute;
+    cursor: pointer;
+    width: 63%;
+}
+
+#iconsGif p{
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-top: 2px;
+    margin-left: 4px;
+    color: #c7c7c7;
+    padding: 10px 20px;
+}
+
+#iconsGif p:hover{
+    background-color: rgba(255, 255, 255, 0.144);
+}
+
+#iconsGif #X:hover{
+    background-color: #d13639;;
+}
+
+#iconEngrenagem{
+    position: absolute;
+    margin-top: 43%;
+    margin-left: 57.50%;
+}
+
+#iconEngrenagem i{
+    color: white;
+    padding: 8px 8px;
+    background-color: #666669;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#iconEngrenagem i:hover{
+    background-color: #979698;
+}

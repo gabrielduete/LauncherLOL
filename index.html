@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Launcher LOL</title>
+</head>
+
+<body>
+
+    <section id = 'container'>
+       
+       <div id = 'containerInputs'>
+
+            <div id = 'logo'>
+                <img src="imgs/logo_LOL.png" alt="logo_LOL">
+            </div>
+            
+            <div id = 'login'>
+                    <h1>Fazer login</h1>
+            </div>
+
+            <div id = 'input1'>
+               <input type="text" id = 'texto' onchange="verificaLogin()" required>
+               <span>NOME DE USUÁRIO</span>
+            </div>
+
+            <div id = 'input2'>
+                <input type="password" id='senha' onchange="verificaLogin()" required>
+                <span>SENHA</span>
+            </div>
+
+            <div id = 'icons'>
+                <i class = "fab fa-facebook"></i>
+                <div>
+                    <img src="imgs/logo_Google.png" alt="logo_Google">
+                </div>
+                <i class = "fab fa-apple"></i>
+            </div>
+
+            <div id = 'manterLogin' onclick = "clicouBotao()">
+                <i  class="far fas fa-square icone"></i>
+                <i  class= "fas fa-check-square icone"></i>
+                <span class = 'icone'>Manter login</span>
+            </div>
+
+            <div id = 'seta'>
+                <a id = 'link1'><i id = "setinha" class="fas fa-arrow-right fa-lg"></i></a>        
+            </div>
+
+            <div id ='textos'>
+                <p>NÃO CONSEGUE INICIAR SESSÃO?</p>
+                <p style="margin-left: 25%; margin-top: 2%;">CRIAR CONTA</p>
+                <p style="margin-left: 100%;">V35.0.1</p>
+            </div>
+
+       </div> 
+
+       <div id = 'gif'>
+           <div id = 'iconsGif'>
+                <p id = 'X'>X</p>
+                <p>?</p>
+                <p>-</p>
+            </div>
+
+            <div id = 'iconEngrenagem'>
+                <i class="fas fa-cog"></i>
+            </div>
+            
+            <img src="imgs/fundo.png" alt="fundo">
+        </div>
+
+    </section>    
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
