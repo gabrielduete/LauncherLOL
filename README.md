@@ -14,4 +14,7 @@ O projeto **LauncherLOL** é uma 'replica' do launcher original do League of Leg
 
 # 😮 Preview
 
-...
+<img src = 'imgs/preview1.png'>
+<img src = 'imgs/preview2.png'>
+
+Veja com mais detalhes no ytb: https://www.youtube.com/watch?v=WkHOyneeZYA
