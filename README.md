@@ -4,7 +4,7 @@
 
 # 🤔 Sobre
 
-O projeto **LauncherLOL** é uma 'replica' do launcher original do League of Legends. Foi desenvolvido com HTML, CSS e JS.
+O projeto **LauncherLOL** é uma 'réplica' do launcher original do League of Legends. Foi desenvolvido com HTML, CSS e JS.
 
 # 💻Tecnologias utilizadas
 
